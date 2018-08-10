@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Xameteo"
+             x:Class="Xameteo.MainPage">
+
+    <ScrollView Orientation="Vertical">
+
+        <StackLayout >
+            <StackLayout
+                Orientation="Horizontal"
+                HorizontalOptions="Center"
+                Padding="10,20,10,30">
+                <Label Text="Weather"             
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="End"
+                   Margin="0,0,-5,0"
+                   FontSize="30"
+                   TextColor="DarkBlue"/>
+                <Label Text="APP"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Start"               
+                   FontAttributes="Bold"
+                   FontSize="29"
+                   TextColor="DarkBlue"/>
+            </StackLayout>
+            <Label x:Name="cityNameLabel" 
+                   Text="ville"   
+                   FontSize="Medium"
+                   Margin="15,0,0,-10"
+                   VerticalOptions="End"
+                   HorizontalTextAlignment="Start"/>
+
+            <StackLayout Orientation="Horizontal"
+                         Margin="10,-5,0,0">
+                <Entry x:Name="cityNameEntry"                   
+                       VerticalOptions="Center"
+                       HorizontalOptions="FillAndExpand"
+                       HorizontalTextAlignment="Start"
+                       Placeholder="Votre Ville"/>
+                <Button x:Name="getWeatherBtn" Text="TROUVER"
+                        VerticalOptions="Center"
+                        Clicked="GetWeatherBtn_Clicked" />
+            </StackLayout>
+            <Label x:Name="temperature"
+                   Text="{Binding temperature}"
+                   HorizontalTextAlignment="Center"
+                   Margin="0,50,0,-20"              
+                   HorizontalOptions="Center"               
+                   FontSize="150"/>
+            <Label Text="{Binding statue}" 
+                   Margin="0,-10,0,40"     
+                   HorizontalOptions="Center"               
+                   FontSize="Medium"/>
+            <StackLayout Orientation="Horizontal"
+                         Margin="10,0,10,-10" >
+                <Label Text="{Binding tmpMin}"
+                       HorizontalOptions="StartAndExpand"
+                       Margin="20,0,0,0"
+                       FontSize="50"/>
+                <Label Text="{Binding tmpMax}"  
+                       HorizontalOptions="EndAndExpand"
+                       Margin="0,0,20,0"
+                       FontSize="50"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"
+                         Margin="10,0,10,30">
+                <Label x:Name="minTmp"
+                       Text="min"
+                       HorizontalOptions="StartAndExpand"
+                       Margin="30,0,0,0"
+                       FontSize="Medium" />
+                <Label x:Name="maxTmp"
+                       Text="max" 
+                       HorizontalOptions="EndAndExpand"
+                       Margin="0,0,30,0"
+                       FontSize="Medium" />
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

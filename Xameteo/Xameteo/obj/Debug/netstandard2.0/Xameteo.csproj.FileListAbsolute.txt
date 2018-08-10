@@ -1,0 +1,11 @@
+C:\Users\khmais\source\repos\Xameteo\Xameteo\Xameteo\bin\Debug\netstandard2.0\Xameteo.deps.json
+C:\Users\khmais\source\repos\Xameteo\Xameteo\Xameteo\bin\Debug\netstandard2.0\Xameteo.dll
+C:\Users\khmais\source\repos\Xameteo\Xameteo\Xameteo\obj\Debug\netstandard2.0\Xameteo.csprojResolveAssemblyReference.cache
+C:\Users\khmais\source\repos\Xameteo\Xameteo\Xameteo\obj\Debug\netstandard2.0\Xameteo.csproj.CoreCompileInputs.cache
+C:\Users\khmais\source\repos\Xameteo\Xameteo\Xameteo\obj\Debug\netstandard2.0\Xameteo.App.xaml.g.cs
+C:\Users\khmais\source\repos\Xameteo\Xameteo\Xameteo\obj\Debug\netstandard2.0\Xameteo.MainPage.xaml.g.cs
+C:\Users\khmais\source\repos\Xameteo\Xameteo\Xameteo\obj\Debug\netstandard2.0\Xameteo.AssemblyInfoInputs.cache
+C:\Users\khmais\source\repos\Xameteo\Xameteo\Xameteo\obj\Debug\netstandard2.0\Xameteo.AssemblyInfo.cs
+C:\Users\khmais\source\repos\Xameteo\Xameteo\Xameteo\bin\Debug\netstandard2.0\Xameteo.pdb
+C:\Users\khmais\source\repos\Xameteo\Xameteo\Xameteo\obj\Debug\netstandard2.0\Xameteo.dll
+C:\Users\khmais\source\repos\Xameteo\Xameteo\Xameteo\obj\Debug\netstandard2.0\Xameteo.pdb
