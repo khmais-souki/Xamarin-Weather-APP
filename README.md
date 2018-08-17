@@ -1,2 +1,1 @@
-##Xamarin-Weather-APP
-###this is a weather application
+Xamarin-Weather-APP
